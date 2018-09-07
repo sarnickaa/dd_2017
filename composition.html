@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="StyleSheet" title="Default" href="format.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
+<title>Aleksandra Sarnicka
+</title>
+
+
+</head>
+
+
+<body>
+
+<div id="header">
+<h1>DDFS Final Project Fall 2017</h1>
+</div>
+
+<div id="navbar">
+
+<ul>
+<div class="dropdown">
+<li><a href="index.html" class="dropbtn">Home</a></li>
+<div class="dropdown-content">
+<a href="about.html">About Me</a>
+<a href="contact.html">Contact Me</a>
+</div>
+</div>
+
+
+<li><a href="images/5page/index.html" target="_blank">5page</a></li>
+<li><a href="composition.html">Composition</a></li>
+<li><a href="animation.html">Animation</a></li>
+<li><a href="blob.html">Illustrator Brush</a></li>
+<li><a href="logo.html">Logos</a></li>
+<!-- <li><a href="lightbox/example.html" target="_blank">Lightbox</a></li> -->
+</ul>
+</div>
+
+<div id="composition">
+<div class="polaroid">
+<img src="images/composite/composition_rs.jpg" style="width:100%"/>
+<div class="container"><p>Explosion: 10 layer photoshop composition</p>
+</div>
+</div>
+
+<div class="polaroid">
+<img src="images/composite/family_rs.jpg" style="width:100%"/>
+<div class="container"><p>Family Portrait: 10 layer photoshop composition</p>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<h6>&copy; 2017 Aleksandra Sarnicka Providence, RI</h6>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

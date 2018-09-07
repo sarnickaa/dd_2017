@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="StyleSheet" title="Default" href="format.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+
+ <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
+ <script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+
+<title>Aleksandra Sarnicka
+</title>
+
+<style>
+.exept:hover{
+background: #ffffff;
+}
+img{
+    width: 150px;
+    }
+img:hover {
+    box-shadow: 0 0 2px 1px #cccccc;
+    opacity: 0.5;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div id="header">
+<h1>DDFS Final Project Fall 2017</h1>
+</div>
+
+<div id="navbar">
+
+<ul>
+<div class="dropdown">
+<li><a href="index.html" class="dropbtn">Home</a></li>
+<div class="dropdown-content">
+<a href="about.html">About Me</a>
+<a href="contact.html">Contact Me</a>
+</div>
+</div>
+
+
+<li><a href="images/5page/index.html" target="_blank">5page</a></li>
+<li><a href="composition.html">Composition</a></li>
+<li><a href="animation.html">Animation</a></li>
+<li><a href="blob.html">Illustrator Brush</a></li>
+<li><a href="logo.html">Logos</a></li>
+<!-- <li><a href="lightbox/example.html" target="_blank">Lightbox</a></li> -->
+</ul>
+</div>
+
+<div id="logo">
+<div class="logo">
+<a class="exept" href="images/logo/logo1.png" data-lightbox="Logo" data-title="Logo 1"><img src="images/logo/logo1.png"/></a>
+<a class="exept" href="images/logo/logo2.png" data-lightbox="Logo" data-title="Logo 2"><img src="images/logo/logo2.png"/></a>
+<a class="exept" href="images/logo/logo3.png" data-lightbox="Logo" data-title="Logo 3"><img src="images/logo/logo3.png"/></a>
+</div>
+<div class="logo2">
+<a class="exept" href="images/logo/logo4.png" data-lightbox="Logo" data-title="Logo 4"><img src="images/logo/logo4.png"/></a>
+<a class="exept" href="images/logo/logo5.png" data-lightbox="Logo" data-title="Logo 5"><img src="images/logo/logo5.png"/></a>
+<a class="exept" href="images/logo/logo6.png" data-lightbox="Logo" data-title="Logo 6"><img src="images/logo/logo6.png"/></a>
+<a class="exept" href="images/logo/logo7.png" data-lightbox="Logo" data-title="Logo 7"><img src="images/logo/logo7.png"/></a>
+</div>
+</div>
+
+<div id="footer">
+<h6>&copy; 2017 Aleksandra Sarnicka Providence, RI</h6>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,247 @@
+body{
+	background: white;
+	margin:0px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1em;
+	}
+
+	/*contact me card*/
+.card {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.title2 {
+  border: none;
+  outline: 0;
+  display: block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  max-width: 300px;
+  font-size: 18px;
+}
+
+/*about me*/
+.about1{
+	margin-top: 30px;
+	width: 100%;
+	color: #cccccc;
+	background: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+img.profile{
+	border-radius: 50%;
+	width: 35%;
+	}
+
+.about2{
+	margin-top: 30px;
+	width: 100%;
+	color: whitesmoke;
+	background: #eec4d5;
+	text-align: center;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+
+#header{
+	width: 100%;
+	background: white;
+	text-align: left;
+	padding: 20px;
+	box-sizing: border-box;
+	}
+h1{
+	margin-top: 0px;
+	font-size: 3em;
+	color: #cccccc;
+	}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .landing {
+padding-top: 20px;
+}
+
+
+/*navigation*/
+.dropdown {
+    display: inline;
+}
+
+/*links in dropdown*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a:hover {background-color: #e6cbd6}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+    float: none;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #ffffff;
+	font-size: 0.9em;
+	}
+li{
+	float: left;
+	}
+li a, .dropbtn{
+	display: block
+	color: #000000;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	}
+
+
+a:link{text-decoration: none; background: #ffffff; color: #000000; font-size:1.1em}
+a:visited{text-decoration: none; background: #ffffff; color: #000000;}
+a:active{text-decoration: none; background: #ffffff; color: #000000;}
+a:hover{text-decoration: none; background: #eec4d5; color: whitesmoke;}
+
+
+#blob{
+	margin-top: 60px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+    justify-content: space-between;
+	}
+
+
+#animation{
+	margin-top: 60px;
+	margin-left: 200px;
+	margin-right: 200px;
+	background: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+    justify-content: space-between;
+	}
+
+#composition{
+	color: #bbbbbb;
+	margin-top: 40px;
+	text-align: center;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#content{
+	display: inline;
+	margin-top: 0px;
+	width: 100%;
+	background: white;
+	text-align: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.content2{
+	display: inline-block;
+	position: absolute;
+	top: 590px;
+	left: 500px;
+	background: #eec4d5;
+	color: white;
+	width: 600px;
+	right:0;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#logo{
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+    justify-content: space-between;
+}
+.logo{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+    justify-content: space-between;
+    }
+.logo2{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+    justify-content: space-between;
+    }
+
+
+#footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 100px;
+	background: white;
+	color: #cccccc;
+	text-align: right;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 0.9em;
+}

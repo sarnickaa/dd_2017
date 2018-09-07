@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+<link rel="StyleSheet" title="Default" href="format.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<title>Aleksandra Sarnicka
+</title>
+
+</head>
+
+
+<body>
+
+<div id="header">
+<h1>DDFS Final Project Fall 2017</h1>
+</div>
+
+<div id="navbar">
+
+<ul>
+<div class="dropdown">
+<li><a href="index.html" class="dropbtn">Home</a></li>
+<div class="dropdown-content">
+<a href="about.html">About Me</a>
+<a href="contact.html">Contact Me</a>
+</div>
+</div>
+
+
+<li><a href="images/5page/index.html" target="_blank">5page</a></li>
+<li><a href="composition.html">Composition</a></li>
+<li><a href="animation.html">Animation</a></li>
+<li><a href="blob.html">Illustrator Brush</a></li>
+<li><a href="logo.html">Logos</a></li>
+<!-- <li><a href="lightbox/example.html" target="_blank">Lightbox</a></li> -->
+</ul>
+</div>
+
+<div class="about1">
+<h2>Who Am I?</h2>
+<img class="profile" src="images/profile.jpg" alt="Aleks">
+</div>
+<div class="about2">
+<h3>I'm a cat-lover, aspiring web-developer and prolific pixel-pusher. I have recently completed General Assembly's Full Stack Web Development Immersive and am currently completing the RISD
+CE Graphic Design certificate with the hope that one day, my longstanding love of design and newly discovered love
+for coding will become a dream-career.</h3>
+</div>
+
+
+
+<div id="footer">
+<h6>&copy; 2017 Aleksandra Sarnicka Providence, RI</h6>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

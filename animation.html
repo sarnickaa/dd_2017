@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="StyleSheet" title="Default" href="format.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+<link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.min.css">
+<script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+
+<title>Aleksandra Sarnicka
+</title>
+
+<style>
+.exept:hover{
+background: #ffffff;
+}
+img{
+    width: 150px;
+    }
+img:hover {
+    box-shadow: 0 0 2px 1px #cccccc;
+    opacity: 0.5;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div id="header">
+<h1>DDFS Final Project Fall 2017</h1>
+</div>
+
+<div id="navbar">
+
+<ul>
+<div class="dropdown">
+<li><a href="index.html" class="dropbtn">Home</a></li>
+<div class="dropdown-content">
+<a href="about.html">About Me</a>
+<a href="contact.html">Contact Me</a>
+</div>
+</div>
+
+
+<li><a href="images/5page/index.html" target="_blank">5page</a></li>
+<li><a href="composition.html">Composition</a></li>
+<li><a href="animation.html">Animation</a></li>
+<li><a href="blob.html">Illustrator Brush</a></li>
+<li><a href="logo.html">Logos</a></li>
+<!-- <li><a href="lightbox/example.html" target="_blank">Lightbox</a></li> -->
+</ul>
+</div>
+
+<div id="animation">
+
+<a class="exept" href="images/animation/cat.gif" data-lightbox="Cat" data-title="Curious Cat"><img src="images/animation/cat.gif"></a>
+<a class="exept" href="images/animation/smiling_cat.gif"data-lightbox="Cat" data-title="The Smart-Set"><img src="images/animation/smiling_cat.gif"></a>
+<a class="exept" href="images/animation/falling_cat.gif"data-lightbox="Cat" data-title="Kitten Free-Fall"><img src="images/animation/falling_cat.gif"></a>
+
+</div>
+
+<div id="footer">
+<h6>&copy; 2017 Aleksandra Sarnicka Providence, RI</h6>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

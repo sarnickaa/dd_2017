@@ -1,0 +1,120 @@
+
+body{
+	background: #FFFFFF;
+	font-family: "arial", "sans-serif";
+	font-size: 1em;
+	}
+
+#parent {
+	background: #ffffff;
+	width: 900px;
+	margin: auto;/*centers region in browser*/
+	padding: 10px;/*enlarges entire parent region by 10px*/
+	box-sizing: border-box;/*compensates for padding enlargement*/
+	}
+	
+	#header {
+	background: #ffffff;
+	width: 880px;
+	margin-left: auto;/*centers region in browser*/
+	text-align: left; 
+	padding: 10px;/*enlarges entire header region by a space of 10px*/
+	box-sizing: border-box;/*compensates for padding enlargement*/	
+	border-radius: 10px
+	}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: #ffffff;
+	font-size: 0.75em;
+	/*position: fixed;
+    top: 95px;*/
+	}
+li{
+	float: right;
+	}
+li a{
+	display: block
+	color: #000000;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	}
+
+a:link{
+	color: #000000;
+	}
+a:visited{
+	color: #000000;
+	}
+a:hover{
+	color: #ffffff;
+	background-color: #cc6699;
+	}
+a:active{
+	color: #000000;
+	}
+
+#content {
+	background: #ffffff;
+	width: 880px;
+	margin-left: auto;/*centers region in browser*/
+	margin-top: 10px; /*drops down content from header by 10px*/
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 10px
+	}	
+
+	img{
+	opacity: 0.5;
+	/*border-radius: 10px 10px 0px 0px;*/
+	/*width: 200px*/
+	}
+	
+	img:hover{
+	opacity: 1.0;
+	}
+
+div.polaroid {
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+	
+	a:hover{
+	color: #000000;
+	}
+  }
+	
+
+	
+	
+	#footer {
+	background: #ffffff;
+	color: #888888;
+	width: 880px;
+	margin-left: auto;/*centers region in browser*/
+	margin-top: 30px;
+	text-align: right; 
+	padding: 10px;/*enlarges entire footer region by 10px*/
+	box-sizing: border-box;/*compensates for padding enlargement*/
+	font-family: "arial", "helvetica", "sans-serif";
+	font-size: 0.6em;
+	border-radius: 10px
+	}	
+	
+	
+
+
+	
